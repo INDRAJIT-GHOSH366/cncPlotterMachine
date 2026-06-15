@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-screen text-center px-6 pt-24">
+    <div className="relative flex flex-col items-center justify-center min-h-screen text-center px-6 pt-40 md:pt-24">
 
       {/* Heading */}
       <motion.h1
