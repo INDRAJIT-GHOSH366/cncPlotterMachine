@@ -30,7 +30,7 @@ function DashboardPreview() {
       setCurrentImage((prev) =>
         prev === images.length - 1 ? 0 : prev + 1
       );
-    },2500);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [images.length]);
@@ -186,7 +186,7 @@ function DashboardPreview() {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
-                  transition={{ duration: 0.4 }}
+                  transition={{ duration: 0.6 }}
                   className="
                     w-full
                     h-[550px]
