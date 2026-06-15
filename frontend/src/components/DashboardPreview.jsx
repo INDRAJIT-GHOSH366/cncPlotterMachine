@@ -30,7 +30,7 @@ function DashboardPreview() {
       setCurrentImage((prev) =>
         prev === images.length - 1 ? 0 : prev + 1
       );
-    }, 3000);
+    },1000);
 
     return () => clearInterval(interval);
   }, [images.length]);
