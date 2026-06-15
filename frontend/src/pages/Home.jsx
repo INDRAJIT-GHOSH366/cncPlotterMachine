@@ -10,10 +10,8 @@ import Footer from "../components/Footer";
 
 function Home() {
   return (
-    <div className="relative min-h-screen bg-black overflow-x-hidden">
-      
-      {/* Background */}
-      <div className="fixed inset-0 -z-10 pointer-events-none">
+    <div className="relative w-full min-h-screen bg-black">
+      <div className="fixed inset-0 pointer-events-none">
         <LineWaves
           speed={0.3}
           innerLineCount={32}
@@ -29,21 +27,18 @@ function Home() {
         />
       </div>
 
-      {/* Navbar */}
-      <div className="sticky top-0 z-50 px-5 pt-5">
+      <div className="absolute top-5 left-5 right-5 z-[9999]">
         <Nav />
       </div>
 
-      {/* Content */}
-      <main className="relative z-10">
+      <div className="relative z-10">
         <Hero />
         <FeatureSection />
         <HowItWorks />
         <DashboardPreview />
         <CTASection />
         <Footer />
-      </main>
-
+      </div>
     </div>
   );
 }
