@@ -1,14 +1,14 @@
 import React from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom';
-import SignUp from './pages/signUp';
-import SignIn from './pages/SignIn';
-import ForgotPassword from './pages/ForgotPassword';
+import SignUp from "./pages/SignUp";
+import SignIn from "./pages/SignIn";
+import ForgotPassword from "./pages/ForgotPassword";
 import { use } from 'react';
 import useGetCurrentUser from './hooks/useGetCurrentUser';
 import { useSelector } from 'react-redux';
-import Home from './pages/Home';
-import GetStarted from './pages/GetStarted';
-export const serverUrl ="http://localhost:8000";
+import Home from "./pages/Home";
+import GetStarted from "./pages/GetStarted";
+export const serverUrl ="https://cncplottermachine-backend.onrender.com";
 
 function App() {
   useGetCurrentUser();
