@@ -8,7 +8,7 @@ import useGetCurrentUser from './hooks/useGetCurrentUser';
 import { useSelector } from 'react-redux';
 import Home from "./pages/Home";
 import GetStarted from "./pages/GetStarted";
-export const serverUrl ="https://cncplottermachine-backend.onrender.com";
+export const serverUrl = import.meta.env.VITE_SERVER_URL;
 
 function App() {
   useGetCurrentUser();
