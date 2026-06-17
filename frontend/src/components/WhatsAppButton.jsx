@@ -4,20 +4,20 @@ import { FaWhatsapp } from "react-icons/fa";
 function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/8391853609?text=Hello%20I%20want%20to%20know%20more%20about%20the%203D%20Plotter"
+      href="https://wa.me/918391853609?text=Hello%20I%20want%20to%20know%20more%20about%20the%203D%20Plotter"
       target="_blank"
       rel="noopener noreferrer"
       className="
         fixed
-        bottom-5
-        right-5
+        bottom-20
+        right-4
         md:bottom-6
         md:right-6
         z-[9999]
-        w-14
-        h-14
-        md:w-16
-        md:h-16
+        w-16
+        h-16
+        md:w-18
+        md:h-18
         rounded-full
         bg-[#25D366]
         flex
@@ -31,7 +31,7 @@ function WhatsAppButton() {
       "
       aria-label="WhatsApp"
     >
-      <FaWhatsapp className="text-white text-3xl md:text-4xl" />
+      <FaWhatsapp className="text-white text-4xl md:text-5xl" />
     </a>
   );
 }
