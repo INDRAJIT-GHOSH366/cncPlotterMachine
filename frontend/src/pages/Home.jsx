@@ -7,6 +7,7 @@ import HowItWorks from "../components/HowItWorks";
 import DashboardPreview from "../components/DashboardPreview";
 import CTASection from "../components/CTASection";
 import Footer from "../components/Footer";
+import WhatsAppButton from "../components/WhatsAppButton";
 
 function Home() {
   return (
@@ -39,6 +40,7 @@ function Home() {
         <CTASection />
         <Footer />
       </div>
+      <WhatsAppButton />
     </div>
   );
 }
