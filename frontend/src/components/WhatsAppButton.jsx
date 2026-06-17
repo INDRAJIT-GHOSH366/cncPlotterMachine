@@ -1,10 +1,12 @@
 import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
+
 function WhatsAppButton() {
+    const whatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER;
   return (
     <a
-      href="https://wa.me/918391853609?text=Hello%20I%20want%20to%20know%20more%20about%20the%203D%20Plotter"
+      href={`https://wa.me/${whatsappNumber}?text=Hello%20I%20want%20to%20know%20more%20about%20the%203D%20Plotter`}
       target="_blank"
       rel="noopener noreferrer"
       className="
